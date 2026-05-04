@@ -9,11 +9,37 @@
     <div class="game-container">
         <h1>Rock Paper Scissors</h1>
         <div class="choices">
-            <button onclick="play('rock')">Rock</button>
-            <button onclick="play('paper')">Paper</button>
-            <button onclick="play('scissors')">Scissors</button>
+            <button onclick="play('rock')" class="choice-btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" alt="Rock" class="choice-img">
+                <p>Rock</p>
+            </button>
+            <button onclick="play('paper')" class="choice-btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/3442/3442506.png" alt="Paper" class="choice-img">
+                <p>Paper</p>
+            </button>
+            <button onclick="play('scissors')" class="choice-btn">
+                <img src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" alt="Scissors" class="choice-img">
+                <p>Scissors</p>
+            </button>
         </div>
-        <div class="result" id="result">Choose to play!</div>
+        
+        <div class="game-display">
+            <div class="player-display">
+                <h3>You</h3>
+                <img id="playerImg" src="" alt="Player choice" class="game-img">
+                <p id="playerChoice"></p>
+            </div>
+            
+            <div class="result-display">
+                <div class="result" id="result">Choose to play!</div>
+            </div>
+            
+            <div class="ai-display">
+                <h3>AI</h3>
+                <img id="aiImg" src="" alt="AI choice" class="game-img">
+                <p id="aiChoice"></p>
+            </div>
+        </div>
     </div>
     <script src="Game.js"></script>
 </body>
