@@ -1,7 +1,7 @@
 const choiceImages = {
-    rock: 'https://cdn-icons-png.flaticon.com/512/4436/4436481.png',
-    paper: 'https://cdn-icons-png.flaticon.com/512/3442/3442506.png',
-    scissors: 'https://cdn-icons-png.flaticon.com/512/747/747376.png'
+    rock: 'images/rock',
+    paper: 'images/paper.jfif',
+    scissors: 'images/scissors.jfif'
 };
 
 function play(playerChoice) {
